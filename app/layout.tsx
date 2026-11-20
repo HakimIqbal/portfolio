@@ -15,7 +15,7 @@ const mono = JetBrains_Mono({
   display: "swap",
 });
 
-const siteUrl = "https://hakim.pages.dev";
+const siteUrl = "https://hakim-portfolio-1c1.pages.dev";
 const description =
   "Backend and AI engineer building secure APIs, RAG pipelines, and LLM-powered products. NestJS, FastAPI, Supabase RLS, and multi-LLM systems for organizations across 67+ countries.";
 
@@ -26,6 +26,12 @@ export const metadata: Metadata = {
     template: `%s | ${profile.name}`,
   },
   description,
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+  },
   applicationName: `${profile.name} Portfolio`,
   authors: [{ name: profile.name, url: profile.github }],
   keywords: [

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+  <title id="t">Hakim favicon</title>
+  <desc id="d">Favicon variant: heavier strokes and a larger accent block so the mark survives 16 pixels.</desc>
+  <g fill="none" stroke="#191817" stroke-width="10" stroke-linecap="square">
+    <path d="M15 11 V53"/>
+    <path d="M49 11 V53"/>
+    <path d="M15 32 H49"/>
+  </g>
+  <rect x="40" y="40" width="16" height="16" fill="#C2410C"/>
+</svg>
